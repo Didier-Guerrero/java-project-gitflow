@@ -4,8 +4,9 @@ public class Main{
         System.out.println("* JAVA PROJECT *");
         System.out.println("***************");
         Saludo saludo = new Saludo();
-        System.out.println(saludo.generarSaludo("Mundo"));
-        System.out.println(saludo.generarSaludo("Version 1.1.0 lista para produccion"));
+        System.out.println(saludo.generarSaludo("Mundo", "en"));
+        System.out.println(saludo.generarSaludo("Mundo", "es"));
+        System.out.println(saludo.generarSaludo("Mundo", "fr"));
         Despedida despedida = new Despedida();
         System.out.println(despedida.generarDespedida("Mundo"));
     }
